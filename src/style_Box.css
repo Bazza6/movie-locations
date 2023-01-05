@@ -1,0 +1,44 @@
+  .boxOpen{
+    /*height: 110%;*/
+    height: 60vh;
+    transition: 1s;
+  } 
+  
+  .boxClosed{
+    height: 20%;
+    transition: 1s;
+  }
+  .boxHidden{
+  height: 0px;
+  display: none;
+  transition: 1s;
+  }
+
+  .imgContainer{
+    text-align: center;
+    height: 30vh;
+    align-items: center;
+  }
+
+  .imgScene{
+    height: 100%;
+  }
+
+  .modalBox {
+    height: 50vh !important;
+    z-index: 9999;
+  }
+
+  .buttonImg {
+    height: 3rem;
+    width: 3rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30%;
+    
+  }
+
+  /* ==> ESTÁ ESTILADO CON TAILWIND */
+  .moreInfo{
+    text-align: center !important;
+    border: solid red 1px;
+  }
