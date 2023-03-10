@@ -78,7 +78,7 @@ export default function Home() {
   return (
     <>
       {/* ESTE DIV FUERA HACE QUE NO HAYA PROBLEMAS CON EL STICKY BUTTON */}
-      <div className="homeBackground relative flex-col items-center bg-scroll">
+      <div className="homeBackground relative flex-col items-center bg-scroll max-w-2xl m-auto">
         <Navbar />
         <div className="p-3 h-fit">
           <div className="p-2 lg:mx-8 md:mx-6">
@@ -88,11 +88,7 @@ export default function Home() {
               {moviesData.length} películas!
             </p>
           </div>
-          <div
-            className="flex flex-col justify-center items-center
-          lg:flex-row lg:justify-around 
-          md:flex-row md:justify-evenly"
-          >
+          <div className="flex flex-col justify-center items-center">
             <input
               className="input input-bordered w-[342px] lg:min-w-[366px] text-center my-2 md:w-60"
               type="text"
